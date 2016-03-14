@@ -1,0 +1,28 @@
+{
+  "name": "imdb-crawler",
+  "version": "0.0.0",
+  "description": "Developed based on [tutorial](https://scotch.io/tutorials/scraping-the-web-with-node-js)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thinkdmeanin/imdb-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "imdb"
+  ],
+  "author": "Joseph Shing",
+  "license": "Mit",
+  "bugs": {
+    "url": "https://github.com/thinkdmeanin/imdb-crawler/issues"
+  },
+  "homepage": "https://github.com/thinkdmeanin/imdb-crawler",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  }
+}
